@@ -7,9 +7,7 @@ venv/
 .env/
 .venv/
 
-# Data (large)
-data/
-*.idx
+
 
 # OS/editor
 .DS_Store
@@ -17,3 +15,12 @@ data/
 
 # Model artifacts
 *.npz
+
+# Ignore MNIST binary files
+data/*.idx*
+data/*.ubyte
+
+# Keep folder and README
+!data/
+!data/README.md
+!data/.gitkeep
