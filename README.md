@@ -72,7 +72,7 @@ python main.py
 
 Then choose:
 ```bash
-Train or Not (y/n): y
+Train or Not (y/n): n
 ```
 This loads your saved weights, evaluates accuracy on the MNIST test set, and displays 25 random digit predictions (5×5 grid) with predicted and true labels.
 
